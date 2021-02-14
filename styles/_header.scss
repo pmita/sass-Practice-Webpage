@@ -1,0 +1,20 @@
+.header{
+
+
+    &__menu{
+
+        > span{
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $darkBlue;
+            margin-bottom: 3px;
+
+            &:not(:last-child){
+                margin-bottom: 3px;
+            }
+        }
+    }
+
+    
+}
